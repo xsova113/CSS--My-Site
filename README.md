@@ -1,3 +1,3 @@
 # CSS---My-Site
 
-My personal webiste about my self.
+My personal webiste about myself.
