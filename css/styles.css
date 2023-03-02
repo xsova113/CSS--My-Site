@@ -2,6 +2,13 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+.top-container {
+    position: relative;
+    background-color: lightcyan;
+    padding-top: 100px;
 }
 
 h1 {
@@ -24,26 +31,24 @@ h3 {
     color: #11999E;
 }
 
-.top-container {
-    position: relative;
-    background-color: lightcyan;
-    padding-top: 100px;
-}
-
 .top-cloud {
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 40px;
 }
 
 .bottom-cloud {
     position: absolute;
     bottom: 300px;
-    left: 300px;
+    left: 250px;
 }
 
-.profile {
+/* .profile {
     margin: 65px 100px auto;
+} */
+
+.middle-container {
+    margin: 100px auto;
 }
 
 .profileimg {
@@ -52,7 +57,6 @@ h3 {
 
 p {
     font-family: sans-serif;
-    color: #40514E;
 }
 
 .skill-row {
@@ -64,13 +68,13 @@ p {
 
 .skillimg {
     float: left;
-    max-width: 35%;
+    max-width: 30%;
     margin-right: 30px;
 }
 
 .skill2img {
     float: right;
-    max-width: 35%;
+    max-width: 30%;
     margin-left: 30px;
 }
 
@@ -79,22 +83,19 @@ a {
 }
 
 .hr1 {
-    margin: 100px 48%;
-    border-top: dotted;
-    border-width: 5px;
-    color: skyblue;
+    border: dotted 6px skyblue;
     border-bottom: none;
-    border-left: none;
-    border-right: none;
+    width: 4%;
+    margin: 100px auto;
 }
 
 .contact-me {
-    padding-bottom: 100px;
     line-height: 2;
 }
 
 .contact-paragraph {
-    padding-bottom: 35px;
+    width: 40%;
+    margin: 40px auto 60px;
 }
 
 .btn {
@@ -127,21 +128,25 @@ a {
     text-decoration: none;
   }
 
-.bottom-container {
+.footer-container {
     background-color: #66BFBF;
-    padding: 45px;
+    padding: 50px 0 20px;
 }
 
 .footer-link {
     color: #11999E;
     text-decoration: none;
     font-size: small;
-    padding: 15px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.footer-paragraph {
+.footer-link:hover {
     color: #EAF6F6;
-    padding: 5px;
-    margin-top: 30px;
-    font-size: smaller;
+}
+
+.copyright-message {
+    color: #EAF6F6;
+    padding: 20px 0;
+    font-size: 0.75rem;
 }
